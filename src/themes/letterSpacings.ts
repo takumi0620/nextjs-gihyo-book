@@ -1,4 +1,4 @@
-const latterSpacings: string[] = [
+const letterSpacings: string[] = [
   "0.06px",
   "0.07px",
   "0.08px",
@@ -7,4 +7,4 @@ const latterSpacings: string[] = [
   "0.1px",
 ]
 
-export default latterSpacings
+export default letterSpacings

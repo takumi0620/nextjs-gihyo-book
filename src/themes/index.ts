@@ -1,13 +1,13 @@
 import colors from "./colors"
 import fontSizes from "./fontSizes"
-import latterSpacings from "./latterSpacings"
+import letterSpacings from "./letterSpacings"
 import lineHeights from "./lineHeights"
 import space from "./space"
 
 export const theme = {
   space,
   fontSizes,
-  latterSpacings,
+  letterSpacings,
   lineHeights,
   colors
 } as const
