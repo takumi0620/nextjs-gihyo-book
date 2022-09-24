@@ -1,5 +1,6 @@
+import { fontSize } from "@mui/system"
 import { theme } from "themes"
-import type { ResponsiveProp, Responsive } from "types"
+import type { ResponsiveProp, Responsive } from "types/styles"
 
 export type AppTheme = typeof theme
 
@@ -13,7 +14,7 @@ export type Space = SpaceThemeKeys | (string & {})
 export type Color = ColorThemeKeys | (string & {})
 export type FontSize = FontSizeThemeKeys | (string & {})
 export type LetterSpacing = LetterSpacingThemeKeys | (string & {})
-export type lineHeight = LineHeightThemeKeys | (string & {})
+export type LineHeight = LineHeightThemeKeys | (string & {})
 
 const BREAKPOINTS: { [key: string]: string } = {
   sm: "640px",
