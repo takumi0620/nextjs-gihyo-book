@@ -62,7 +62,7 @@ export type CSSPropertyJustifyItems =
   | "stretch"
   | (string & {})
 
-export type CSSPropertyJustContent =
+export type CSSPropertyJustifyContent =
   | CSSPropertyGlobals
   | ContentDistribution
   | ContentPosition

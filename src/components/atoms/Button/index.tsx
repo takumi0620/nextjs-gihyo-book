@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { Responsive } from "types"
+import { Responsive } from "types/styles"
 import {
   toPropValue,
   Color,
