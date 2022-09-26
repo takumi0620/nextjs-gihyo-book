@@ -4,7 +4,7 @@ import type { CSSPropertyGridArea, CSSPropertyGridAutoFlow, CSSPropertyGridColum
 import { toPropValue } from "utils/styles"
 
 type GridProps = BoxProps & {
-  girdGap?: Responsive<string>
+  gridGap?: Responsive<string>
   gridColumnGap?: Responsive<string>
   gridRowGap?: Responsive<string>
   gridColumn?: Responsive<CSSPropertyGridColumn>
