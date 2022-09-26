@@ -39,8 +39,8 @@ const CheckBox = (props: CheckBoxProps) => {
     <>
       <CheckBoxElement {...rest} ref={ref} type="checkbox" checked={isChecked} readOnly={!onChange} onChange={onChange} />
       <Flex alignItems="center">
-        {checked ?? isChecked ? 
-          (<CheckBoxIcon size={20} onClick={onClick} />) : (<CheckBoxOutlineBlankIcon size={20} onClick={onClick} />) 
+        {checked ?? isChecked ?
+          (<CheckBoxIcon size={20} onClick={onClick} />) : (<CheckBoxOutlineBlankIcon size={20} onClick={onClick} />)
           }
         {label && label.length > 0 && (
           <Label htmlFor={id} onClick={onClick}>
