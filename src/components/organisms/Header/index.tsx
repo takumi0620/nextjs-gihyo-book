@@ -2,7 +2,7 @@ import Link from "next/link"
 import styled from "styled-components"
 import AppLogo from "components/atoms/AppLogo"
 import Button from "components/atoms/Button"
-import { SearchIcon, ParsonIcon, ShoppingCartIcon } from "components/atoms/IconButton"
+import { SearchIcon, PersonIcon, ShoppingCartIcon } from "components/atoms/IconButton"
 import ShapeImage from "components/atoms/ShapeImage"
 import Spinner from "components/atoms/Spinner"
 import Text from "components/atoms/Text"
@@ -86,7 +86,7 @@ const Header = () => {
           </NavLink>
 
           <NavLink>
-            <Link href="/cert" passHref>
+            <Link href="/cart" passHref>
               <Anchor as="a">
                 <BadgeIconButton
                   icon={<ShoppingCartIcon size={24} />}
