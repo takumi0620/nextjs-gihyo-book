@@ -9,13 +9,13 @@ import {
   LineHeight,
 } from "utils/styles"
 
-export type TextVariant = 
- | "extraSmall"
- | "small"
- | "medium"
- | "mediumLarge"
- | "large"
- | "extraLarge"
+export type TextVariant =
+  | "extraSmall"
+  | "small"
+  | "medium"
+  | "mediumLarge"
+  | "large"
+  | "extraLarge"
 
 export type TextProps = {
   variant?: TextVariant
