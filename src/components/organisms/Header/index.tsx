@@ -4,8 +4,8 @@ import AppLogo from "components/atoms/AppLogo"
 import Button from "components/atoms/Button"
 import { SearchIcon, ParsonIcon, ShoppingCartIcon } from "components/atoms/IconButton"
 import ShapeImage from "components/atoms/ShapeImage"
-import Spinner from "components/atom/Spinner"
-import Text from "components/atom/Text"
+import Spinner from "components/atoms/Spinner"
+import Text from "components/atoms/Text"
 import Box from "components/layout/Box"
 import Flex from "components/layout/Flex"
 import BadgeIconButton from "components/molecules/BadgeIconButton"
@@ -91,7 +91,7 @@ const Header = () => {
                 <BadgeIconButton
                   icon={<ShoppingCartIcon size={24} />}
                   size="24px"
-                  badgeContent={cert.length === 0 ? undefined : cert.length}
+                  badgeContent={cart.length === 0 ? undefined : cart.length}
                   badgeBackgroundColor="primary"
                 />
               </Anchor>

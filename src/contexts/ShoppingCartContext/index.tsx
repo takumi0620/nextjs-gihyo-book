@@ -10,7 +10,7 @@ type ShoppingCartContextType = {
 
 const ShoppingCartContext = React.createContext<ShoppingCartContextType>({
   cart: [],
-  addProductToCart: () => {}
+  addProductToCart: () => {},
   removeProductFromCart: () => {}
 })
 
