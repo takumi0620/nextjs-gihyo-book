@@ -1,6 +1,6 @@
-import Header from "components/organisms/Header"
+import Header from "components/organisms/Header/index"
 import Footer from "components/organisms/Footer"
-import Box from "components/atoms/Box"
+import Box from "components/layout/Box"
 import Separator from "components/atoms/Separator"
 
 interface LayoutProps {
